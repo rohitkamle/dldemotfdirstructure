@@ -1,7 +1,7 @@
-# dldemotfdirstructure
-Repository created for Standard Terraform Directory Structure 
 
-```
+# Terraform folder structure for multi-companies, multi-environemtn setup
+
+
 dldemotfdirstructure
 ├─ companies
 │  ├─ comp1
@@ -88,6 +88,10 @@ dldemotfdirstructure
 │              ├─ main.tf
 │              ├─ output.tf
 │              └─ variable.tf
+├─ global
+│  ├─ main.tf
+│  ├─ output.tf
+│  └─ variable.tf
 ├─ modules
 │  ├─ aws
 │  │  └─ eks
@@ -104,6 +108,7 @@ dldemotfdirstructure
 │        ├─ main.tf
 │        ├─ output.tf
 │        └─ variable.tf
+├─ README copy.md
 └─ README.md
 
 ```
